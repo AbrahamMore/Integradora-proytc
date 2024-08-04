@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zazail Há Spa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/css/produc.css">
+    <%- include('partials/head')%>
+
+</head>
+
+<body>
+    <%- include('partials/navegation')%>
+    <div class="catalogo">
+        <div class="producto" onclick="mostrarInfo('Producto 1', 'Descripción del Producto 1')">
+            <img src="/img/4be531d0-376a-42a5-927e-d57dcb288174.jpg" alt="Producto 1">
+            <p>Producto 1</p>
+            <p>precio: $</p>
+        </div>
+        <!-- Repite este bloque para cada producto -->
+        <div class="producto" onclick="mostrarInfo('Producto 2', 'Descripción del Producto 2')">
+            <img src="/img/prod.jpg" alt="Producto 2">
+            <p>Producto 2</p>
+            <p>precio: $</p>
+        </div>
+
+        <div class="producto" onclick="mostrarInfo('Producto 3', 'Descripción del Producto 3')">
+            <img src="/img/prod.jpg" alt="Producto 3">
+            <p>Producto 3</p>
+            <p>precio: $</p>
+        </div>
+
+        <div class="producto" onclick="mostrarInfo('Producto 4', 'Descripción del Producto 4')">
+            <img src="/img/prod.jpg" alt="Producto 2">
+            <p>Producto 4</p>
+            <p>precio: $</p>
+        </div>
+        
+        <div class="producto" onclick="mostrarInfo('Producto 5', 'Descripción del Producto 5')">
+            <img src="/img/prod.jpg" alt="Producto 2">
+            <p>Producto 5</p>
+            <p>precio: $</p>
+        </div>
+
+        <div class="producto" onclick="mostrarInfo('Producto 6', 'Descripción del Producto 6')">
+            <img src="/img/prod.jpg" alt="Producto 2">
+            <p>Producto 6</p>
+            <p>precio: $</p>
+        </div>
+
+        <div class="producto" onclick="mostrarInfo('Producto 7', 'Descripción del Producto 7')">
+            <img src="/img/prod.jpg" alt="Producto 2">
+            <p>Producto 7</p>
+            <p>precio: $</p>
+        </div>
+
+        <div class="producto" onclick="mostrarInfo('Producto 8', 'Descripción del Producto 8')">
+            <img src="/img/prod.jpg" alt="Producto 2">
+            <p>Producto 8</p>
+            <p>precio: $</p>
+        </div>
+        
+        <div class="producto" onclick="mostrarInfo('Producto 9', 'Descripción del Producto 9')">
+            <img src="/imag/prod.jpg" alt="Producto 2">
+            <p>Producto 9</p>
+            <p>precio: $</p>
+        </div>
+
+        <div class="producto" onclick="mostrarInfo('Producto 10', 'Descripción del Producto 10')">
+            <img src="/img/prod.jpg" alt="Producto 2">
+            <p>Producto 10</p>
+            <p>precio: $</p>
+        </div>
+        <!-- ... -->
+    </div>
+    <%- include('partials/footer')%>
+
+</body>
+</html>

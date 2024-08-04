@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zazail Há Spa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/css/citas.css">
+    <%- include('partials/head')%>
+    
+</head>
+
+<body>
+    <%- include('partials/navegation')%>
+    <div class="base">
+        <div class="formulario">
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required placeholder="Nombre">
+
+                <label for="service">Servicio:</label>
+                <select id="service" name="service" required>
+                    <option value="servicio1">Servicio 1</option>
+                    <option value="servicio2">Servicio 2</option>
+                    <option value="servicio3">Servicio 3</option>
+                    <option value="servicio4">Servicio 4</option>
+                    <option value="servicio5">Servicio 5</option>
+                    <option value="servicio6">Servicio 6</option>
+                    <option value="servicio7">Servicio 7</option>
+                    <option value="servicio8">Servicio 8</option>
+                    <option value="servicio9">Servicio 9</option>
+                    <option value="servicio10">Servicio 10</option>
+                </select>
+                <div class="losdos">
+                    <div>
+                        <label for="time">Hora:</label>
+                        <input type="time" id="time" name="time" required>
+                    </div>
+                    <div>
+                        <label for="date">Fecha:</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                </div>
+                <label for="description">Argumentos:</label>
+                <textarea id="description" name="description" rows="4" required placeholder="Comentarios"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="primario">
+            <h2>"Espacio pa ponerle textos chido"</h2>
+        </div>
+    </div>
+    <%- include('partials/footer')%>
+</body>
+</html>

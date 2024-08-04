@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 238, 192);
+}
+
+.servicios {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(221, 207, 160);
+    margin: 25px 40px 15px 170px;
+    width: 75%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.servicio-imagen {
+    width: 16%;
+    margin: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.descripcion {
+    flex: 1;
+}
